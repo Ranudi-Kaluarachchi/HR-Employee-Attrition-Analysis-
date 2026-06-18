@@ -83,6 +83,17 @@ The project follows a full data analytics workflow including data cleaning, expl
 - Deploy model using Flask or Streamlit
 - Build interactive dashboard for HR insights
 
+## Visualizations
+
+### Attrition Count
+![Attrition Count](visuals/attrition_count.png)
+
+### Overtime vs Attrition
+![Overtime vs Attrition](visuals/overtime_vs_attrition.png)
+
+### Correlation Heatmap
+![Correlation Heatmap](visuals/correlation_heatmap.png)
+
 ---
 
 ## 📂 How to Run
