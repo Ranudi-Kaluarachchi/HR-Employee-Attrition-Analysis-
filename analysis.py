@@ -159,7 +159,7 @@ plt.title("Monthly Income vs Attrition")
 plt.xlabel("Attrition (0 = No, 1 = Yes)")
 plt.ylabel("Monthly Income")
 plt.tight_layout()
-plt.savefig("visuals/MonthlyIncome_vs_Attrition.png", dpi=300, bbox_inches="tight")
+plt.savefig("visuals/Monthly_Income_vs_Attrition.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 # Correlation heatmap
