@@ -233,3 +233,20 @@ print("\n===== FINAL HYPOTHESIS CONCLUSION =====")
 print("All tested variables have p-values < 0.05")
 print("→ Reject H0")
 print("→ Fair Treatment significantly affects Attrition")
+
+## Visualizations
+
+### Attrition Count
+![Attrition Count](visuals/attrition_count.png)
+
+### Job Satisfaction vs Attrition
+![Job Satisfaction vs Attrition](visuals/job_satisfaction_vs_attrition.png)
+
+### Overtime vs Attrition
+![Overtime vs Attrition](visuals/overtime_vs_attrition.png)
+
+### Monthly Income vs Attrition
+![Monthly Income vs Attrition](visuals/monthly_income_vs_attrition.png)
+
+### Correlation Heatmap
+![Correlation Heatmap](visuals/correlation_heatmap.png)
