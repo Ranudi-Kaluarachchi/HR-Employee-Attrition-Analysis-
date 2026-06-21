@@ -142,7 +142,7 @@ plt.title("Job Satisfaction vs Attrition")
 plt.xlabel("Job Satisfaction")
 plt.ylabel("Count")
 plt.tight_layout()
-plt.savefig("visuals/Job_Satisfaction_vs_Attrition.png", dpi=300, bbox_inches="tight")
+plt.savefig("visuals/job_Satisfaction_vs_attrition.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 # Overtime vs Attrition
@@ -152,7 +152,7 @@ plt.title("OverTime vs Attrition")
 plt.xlabel("OverTime (0 = No, 1 = Yes)")
 plt.ylabel("Count")
 plt.tight_layout()
-plt.savefig("visuals/Overtime_vs_Attrition.png", dpi=300, bbox_inches="tight")
+plt.savefig("visuals/overtime_vs_attrition.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 # Monthly Income vs Attrition
@@ -162,7 +162,7 @@ plt.title("Monthly Income vs Attrition")
 plt.xlabel("Attrition (0 = No, 1 = Yes)")
 plt.ylabel("Monthly Income")
 plt.tight_layout()
-plt.savefig("visuals/Monthly_Income_vs_Attrition.png", dpi=300, bbox_inches="tight")
+plt.savefig("visuals/monthly_income_vs_attrition.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 # Correlation heatmap
@@ -170,7 +170,7 @@ plt.figure(figsize=(10, 6))
 sns.heatmap(df1.corr(), annot=True, cmap="coolwarm", fmt=".2f")
 plt.title("Correlation Heatmap")
 plt.tight_layout()
-plt.savefig("visuals/Correlation_heatmap.png", dpi=300, bbox_inches="tight")
+plt.savefig("visuals/correlation_heatmap.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 print("✅ Analysis completed successfully.")
