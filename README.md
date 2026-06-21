@@ -88,12 +88,17 @@ The project follows a full data analytics workflow including data cleaning, expl
 ### Attrition Count
 ![Attrition Count](visuals/attrition_count.png)
 
+### Job Satisfaction vs Attrition
+![Job Satisfaction vs Attrition](visuals/job_satisfaction_vs_attrition.png)
+
 ### Overtime vs Attrition
 ![Overtime vs Attrition](visuals/overtime_vs_attrition.png)
 
+### Monthly Income vs Attrition
+![Monthly Income vs Attrition](visuals/monthly_income_vs_attrition.png)
+
 ### Correlation Heatmap
 ![Correlation Heatmap](visuals/correlation_heatmap.png)
-
 ---
 
 ## 📂 How to Run
